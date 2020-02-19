@@ -12,6 +12,6 @@ public class DemoApplication extends SpringBootservletInitializer {
 	}
 	@Override
 	protected springApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(CognizantApplication.class);
+		return builder.sources(DemoApplication.class);
 	}
 }
